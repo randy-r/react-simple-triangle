@@ -1,0 +1,53 @@
+{
+  "name": "react-simple-triangle",
+  "version": "0.9.0",
+  "description": "Responsive triangle rendering react component.",
+  "main": "dist/index.js",
+  "scripts": {
+    "buildPackage": "rimraf dist && babel src --out-dir dist",
+    "buildUmd": "webpack --config webpack.config.umd.js && webpack --env.uglify --config webpack.config.umd.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randy-r/react-simple-triangle"
+  },
+  "keywords": [
+    "triangle",
+    "react",
+    "component",
+    "glow"
+  ],
+  "author": "randy-r",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/randy-r/react-simple-triangle/issues"
+  },
+  "homepage": "https://github.com/randy-r/react-simple-triangle#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.7",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-loader": "^1.8.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.0.1",
+    "eslint-plugin-react": "^7.1.0",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.7.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "react": "^16.0.0"
+  }
+}
