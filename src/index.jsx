@@ -1,2 +1,3 @@
-const log = text => console.log(text);
-log('triangle');
+import Triangle from './components/Triangle';
+
+export default Triangle;
