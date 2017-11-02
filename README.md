@@ -4,7 +4,7 @@
 
 Responsive triangle rendering react component.
 
-The motivation behind this project/package is to apply a glow to the side(segments) composing a triangle.
+The motivation behind this project/package emerged after attempts to apply a glow to the side(segments) composing a triangle.
 
 The component will fill the width of the container element.
 
@@ -12,8 +12,13 @@ The component will fill the width of the container element.
 
 ```$npm install --save react-simple-triangle``` or ```yarn add react-simple-triangle```
 
+or as an UMD module
+```html
+<script crossorigin src="https://unpkg.com/react-simple-triangle/umd/react-simple-triangle.min.js"></script>
+```
+
 ## Usage
-You can use it in your project by writing
+You can use it by writing in node
 ```javascript
 import Triangle from '../react-simple-triangle/src/index';
 ```
@@ -21,9 +26,9 @@ or
 ```javascript
 const Triangle = require('../react-simple-triangle/src/index').default;
 ```
-or as an UMD module
-```html
-<script crossorigin src="https://unpkg.com/react-simple-triangle/umd/react-simple-triangle.min.js"></script>
+(if using UMD)
+```javascript
+const Triangle = reactSimpleTriangle.Triangle
 ```
 
 and place it where ever you need it. None of the props is necessary.
@@ -36,5 +41,6 @@ ReactDOM.render(
   document.getElementById('root'),
 );
 ```
+
 ## Licence
 This project is licensed under the terms of the MIT license.
