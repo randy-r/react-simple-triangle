@@ -1,6 +1,6 @@
 {
   "name": "react-simple-triangle",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "Responsive triangle rendering react component.",
   "main": "dist/index.js",
   "scripts": {
@@ -16,7 +16,12 @@
     "triangle",
     "react",
     "component",
-    "glow"
+    "glow",
+    "styled-componets",
+    "styled componets",
+    "styled",
+    "components",
+    "neon"
   ],
   "author": "randy-r",
   "license": "MIT",
